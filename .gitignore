@@ -1,1 +1,26 @@
+# Dependencies
 node_modules/
+
+# Build Output
+.next/
+
+# Environment Variables
+.env*  # Ignores all files starting with .env (e.g., .env.local, .env.production)
+
+# Temporary Files
+.*.log
+npm-debug.log*
+yarn-error.log*
+
+# Coverage Reports
+coverage/
+
+# Compiled TypeScript
+*.tsx?  # Ignores all TypeScript files (can be adjusted based on your setup)
+
+# Compiled JavaScript (for SWC)
+.swc/
+
+# Testing Frameworks (adjust based on your testing framework)
+jest/__tests__/__snapshots__/
+cypress/screenshots/
